@@ -1,0 +1,1 @@
+<a href="#" class="logo"><img src="../../img/logo.png" width="30%" alt="Logo da página"></a>

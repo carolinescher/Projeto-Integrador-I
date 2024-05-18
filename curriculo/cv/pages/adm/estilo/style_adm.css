@@ -1,0 +1,112 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #00ADEF;
+  margin: 0;
+  overflow-x: hidden;
+  list-style: none;
+
+}
+.material-symbols-outlined {
+  width: 13px;
+
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24
+}
+
+
+
+.container {
+  padding: 15px;
+  gap: 500px;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: block;
+  
+}
+.container p {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.432);
+  padding: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 4px;
+}
+
+.link {
+  text-align: center;
+}
+.link a{
+  text-decoration: none;
+  color: black;
+}
+.container p:hover {
+  background-color:  rgba(255, 255, 255, 0.781);
+}
+
+
+.button_lista {
+  display: flex;
+  margin: 5px 0;
+  margin-right: 150px;
+  padding: 0px 100px 0px 70px;
+  font-weight: 500;
+  color: #fff;
+  justify-content: left;
+  align-items: left;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  
+
+}
+h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat Extra-Bold */
+  font-weight: 800; /* Define o peso da fonte como Extra-Bold */
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.13);
+  color: white;
+  padding: 10px;
+  padding-left: 40px;
+}
+.carrosel {
+  display: flex;
+  justify-content: center;
+  background-color: #51bfebd2;
+  border-radius: 15px;
+  margin: 10px 40px;
+  padding: 10px;
+}
+
+.barra {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  background-color: #0b8cbe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra span {
+  gap: 20px;
+  display: flex;
+}
+
+.barra button {
+  display: flex;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFC800;
+}
+
+.barra button span {
+  margin-left: 6px;
+}
